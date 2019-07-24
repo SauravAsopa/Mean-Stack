@@ -6,7 +6,7 @@ const postRoutes = require('./routes/posts')
 const userRoutes = require('./routes/user')
 const Post = require('./models/post');
 
-mongoose.connect("mongodb+srv://saurav:eWRYBObUPnFud56K@cluster0-gawpd.mongodb.net/angular-node")
+
   .then(() => {
     console.log("connected to db");
   })
